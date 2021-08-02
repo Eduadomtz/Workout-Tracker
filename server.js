@@ -12,7 +12,15 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-
+mongoose.connect(
+    process.env.MONGODB_URI || 'XXXX',
+    {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true,
+        useFindAndModify: false
+    }
+);
 
 app.use(require("./routes/api.js"));
 app.use(require('./routes/view.js'))
