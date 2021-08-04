@@ -6,7 +6,7 @@ With this App you will be able to view create and track daily workouts (track th
 ## Installation
 This project has been deployed to GitHub. https://github.com/Eduadomtz/Workout-Tracker
 
-To get this project up and running, you can follow the deployment link. 
+To get this project up and running, you can follow the deployment link. https://cryptic-sierra-80345.herokuapp.com/?id=610b15202bd42100156728c3
 
 ## Usage
 Select the type of workout. 
